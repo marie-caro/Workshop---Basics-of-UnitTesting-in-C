@@ -64,7 +64,7 @@ int my_putchar(char c);
 
 ---
 
-### Exercise 3️⃣: `my_str_isnum`
+### Exercise 3: `my_str_isnum`
 
 **Function prototype:**
 ```c
@@ -76,12 +76,12 @@ int my_str_isnum(char const *str);
 **Your tests:**
 | Input | Expected | Description |
 |-------|----------|-------------|
-| `"12345"` | `1` | Only numbers ✅ |
-| `"hello"` | `0` | Contains letters ❌ |
-| `"123abc"` | `0` | Mixed content ❌ |
+| `"12345"` | `1` | Only numbers |
+| `"hello"` | `0` | Contains letters |
+| `"123abc"` | `0` | Mixed content |
 | `""` | `1` | Empty string (edge case!) |
-| `"123!"` | `0` | Special characters ❌ |
-| `"1 2 3"` | `0` | Contains spaces ❌ |
+| `"123!"` | `0` | Special characters |
+| `"1 2 3"` | `0` | Contains spaces |
 
 💡 **Hint:** Think about what "only numbers" means!
 
@@ -169,9 +169,9 @@ make tests_run
 ```
 
 **Check your results:**
-- ✅ All tests passing?
-- ✅ Code coverage ≥ 80%?
-- ✅ Edge cases covered?
+- All tests passing?
+- Code coverage ≥ 80%?
+- Edge cases covered?
 
 ---
 
